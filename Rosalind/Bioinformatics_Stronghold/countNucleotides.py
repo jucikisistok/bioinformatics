@@ -9,7 +9,7 @@ def countNucleotides(s):
 
 	Output: txt file containing a list of the nucleotide counts in the A, C, G, T order
 
-	Usage: python <filename.py> <input_dataset.txt> (via command line)
+	Usage (via command line): python <filename.py> <input_dataset.txt>
 	"""
 	
 	c = Counter(s)
