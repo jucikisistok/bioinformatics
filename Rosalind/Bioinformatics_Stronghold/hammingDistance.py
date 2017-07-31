@@ -22,7 +22,6 @@ def hammingDistance(string1, string2):
 
 dataset = open(sys.argv[1])
 string1, string2 = dataset.readline(), dataset.readline()
-#string2 = dataset.readline()
 with open("result_" + sys.argv[1], "w") as f:
 	print("The Hamming-distance is:", hammingDistance(string1, string2), file = f)
 	f.close()
