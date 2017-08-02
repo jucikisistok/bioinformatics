@@ -7,7 +7,6 @@ followed by the GC-content of that string
 Usage (via command line): python <filename.py> <input_file.txt>
 """
 
-
 import sys
 from Bio import SeqIO
 
