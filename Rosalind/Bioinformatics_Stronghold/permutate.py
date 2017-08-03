@@ -15,11 +15,11 @@ def permutate(m):
 	"""
 
 	possible_permutations = list(permutations(range(1, m + 1)))
-	f.write("Number of possible permutations: %s\n"%str(len(possible_permutations)))
+	f.write("Number of possible permutations: %s\n" % str(len(possible_permutations)))
 
 	for i in possible_permutations:
 		perm = "".join(str(i)).replace(",", "")
-		f.write("%s\n"%perm)
+		f.write("%s\n" % perm)
 
 m = int(input("Choose an integer:"))
 with open("result.txt", "w") as f:
