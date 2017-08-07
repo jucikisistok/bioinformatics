@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 """
 Input: positive integers corresponding to the number of months and 
 the number of rabbit pairs (given via command line prompt)

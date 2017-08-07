@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 """
 Input: txt file containing a DNA string t corresponding to a coding strand
 

@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 """
 Input: a positive integer n given via command line prompt
 

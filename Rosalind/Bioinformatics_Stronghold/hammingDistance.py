@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 """
 Input: txt file containing two DNA strings of equal length
 

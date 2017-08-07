@@ -1,5 +1,4 @@
-#!/usr/local/bin/python
-# coding: utf-8
+#!/usr/bin/env python3
 
 """
 Input: txt file containing two DNA strings - the string s and its substring t.

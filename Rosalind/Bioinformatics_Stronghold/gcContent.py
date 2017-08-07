@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 """
 Input: txt file containing DNA strings in FASTA format
 
