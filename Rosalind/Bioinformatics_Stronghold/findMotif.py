@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 
 """
-Input: txt file containing two DNA strings - the string s and its substring t.
+Input: txt file containing two DNA strings - the string s and its substring t
 
-Output: txt file containing all locations of t as a substring of s, using 1-based numbering.
+Output: txt file containing all locations of t as a substring of s, using 1-based numbering
 
 Usage (via command line): python <filename.py> <input_file.txt>
 """
