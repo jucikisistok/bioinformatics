@@ -47,7 +47,6 @@ def translateRNA(s):
 		protein.append(codonDict[codons[i]])
 	return "".join(protein)
 
-
 dataset = open(sys.argv[1])
 s = dataset.read().strip()
 
