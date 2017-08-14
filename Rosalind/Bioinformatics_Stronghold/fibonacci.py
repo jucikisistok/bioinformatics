@@ -8,7 +8,7 @@ Output: the total number of rabbit pairs that will be present after n months,
 if we begin with 1 pair and in each generation, every pair of reproduction-age 
 rabbits produces a litter of k rabbit pairs
 
-Usage: python <filename.py>
+Usage (via command line): python <filename.py>
 """
 
 def fibonacci(n, k):

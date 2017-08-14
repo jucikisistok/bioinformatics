@@ -6,7 +6,7 @@ strand of mRNA
 
 Output: txt file containing the protein string encoded by s
 
-Usage: python <filename.py> <input_file.txt>
+Usage (via command line): python <filename.py> <input_file.txt>
 """
 
 import sys
