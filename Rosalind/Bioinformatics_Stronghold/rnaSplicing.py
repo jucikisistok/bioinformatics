@@ -5,7 +5,7 @@ substrings of s acting as introns, given in FASTA format
 Output: txt or FASTA file containing the protein resulting from
 transcribing and translating the exons of s
 
-Usage: python <filename.py> <input_file.txt or input_file.FASTA>
+Usage (via command line): python <filename.py> <input_file.txt or input_file.FASTA>
 """
 
 import sys

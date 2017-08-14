@@ -5,7 +5,7 @@ Input: txt file containing a protein string P
 
 Output: txt file containing the total weight of P
 
-Usage: python <filename.py> <input_file.txt>
+Usage (via command line): python <filename.py> <input_file.txt>
 """
 
 import sys
