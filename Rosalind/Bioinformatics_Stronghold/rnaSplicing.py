@@ -1,6 +1,8 @@
+#!/usr/bin/env python3
+
 """
-Input: txt or FASTA file containing a DNA string s and a collection of
-substrings of s acting as introns, given in FASTA format
+Input: txt or FASTA file containing a DNA string s and a collection of substrings 
+of s acting as introns, given in FASTA format
 
 Output: txt or FASTA file containing the protein resulting from
 transcribing and translating the exons of s
@@ -60,7 +62,6 @@ def rnaSplicing(s):
 		if len(codons[nucl])%3 == 0:
 			protein.append(codonDict[codons[nucl]])
 	return "".join(protein)
-
 
 dataset = SeqIO.parse(open(sys.argv[1]), 'fasta')
 s = []
